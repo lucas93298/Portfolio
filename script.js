@@ -1,15 +1,12 @@
-fetch("home.html")
-  .then(function (response) {
-    return response.text();
-  })
-  .then(function (html) {
-    document.getElementById("content-main").innerHTML = html;
-    setTimeout(function () {
-      document.getElementById("content-main").style.display = "block";
-      document.getElementById("content-gif").style.display = "none";
-    }, 3000);
-  });
-
+$(document).ready(function () {
+  fetchInfo();
+});
+function fetchInfo() {
+  setTimeout(function () {
+    document.getElementById("content-main").style.display = "block";
+    document.getElementById("content-gif").style.display = "none";
+  }, 3000);
+}
 $("#toggle").click(function () {
   $(this).toggleClass("on");
   $("#resize").toggleClass("active");
