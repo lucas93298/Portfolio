@@ -387,19 +387,19 @@ h6 {
 .projecto6 {
       background: url(tarjeta2.png) no-repeat 50% 50%;
       background-size: contain;
-      width: 40vw;
+      width: 60vw;
       height: 20vh;
 }
 .projecto7 {
       background: url(tarjeta.png) no-repeat 50% 50%;
       background-size: contain;
-      width: 40vw;
+      width: 60vw;
       height: 20vh;
 }
-.projecto7 {
+.projecto8 {
       background: url(tarjeta.png) no-repeat 50% 50%;
       background-size: contain;
-      width: 40vw;
+      width: 60vw;
       height: 20vh;
 }
 
@@ -411,7 +411,7 @@ h6 {
       }
       
       .project {
-            width: 50% !important;
+            width: 80% !important;
             margin: 14px auto;
             height: 150px;
       }
